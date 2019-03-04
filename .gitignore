@@ -1,0 +1,6 @@
+.idea/*
+.idea/.
+target/*
+src/main/resources/*
+.DS_Store
+trivago.iml
