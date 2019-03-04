@@ -11,7 +11,7 @@ public class BaseTest {
 
     @BeforeTest
     public void setUp() {
-        String exePath = "/Users/prashant/Documents/automationFramework/trivago/chromedriver";
+        String exePath = "/Users/prashant/Documents/automationFramework/UIFramework/chromedriver";
         System.setProperty("webdriver.chrome.driver", exePath);
         driver = new ChromeDriver();
         driver.get("http://room5.trivago.com/");
